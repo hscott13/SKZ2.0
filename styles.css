@@ -55,6 +55,7 @@ header a:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  filter: brightness(110%) saturate(102%);
 }
 #bio {
   background: rgb(17, 17, 17);
@@ -151,16 +152,16 @@ footer {
   color: whitesmoke;
   font-weight: 300;
   font-size: 0.8em;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 50px;
+
   padding: 10px 100px 20px;
 }
-footer h6 {
+footer th {
   margin-top: 20px;
   margin-bottom: 5px;
   font-weight: 600;
   font-size: 1.25em;
+  width: 225px;
+  text-align: left;
 }
 footer a {
   color: white;
@@ -244,7 +245,7 @@ footer a {
   }
   footer {
     grid-template-columns: 1fr;
-    padding: 10px 50px 20px;
+    padding: 10px 20px 20px;
     font-size: 0.7em;
   }
 }

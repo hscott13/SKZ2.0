@@ -152,17 +152,20 @@ footer {
   color: whitesmoke;
   font-weight: 300;
   font-size: 0.8em;
-
   padding: 10px 100px 20px;
+}
+table {
+  margin: 0 auto;
 }
 footer th {
   margin-top: 20px;
   margin-bottom: 5px;
   font-weight: 600;
   font-size: 1.25em;
-  width: 225px;
+  width: 300px;
   text-align: left;
 }
+
 footer a {
   color: white;
 }
